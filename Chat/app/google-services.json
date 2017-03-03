@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1063478118148",
+    "firebase_url": "https://chat-69c73.firebaseio.com",
+    "project_id": "chat-69c73",
+    "storage_bucket": "chat-69c73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063478118148:android:43993261a7466817",
+        "android_client_info": {
+          "package_name": "jwherbert64.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063478118148-0rtv4a6s0cmur485ftoueo0k1t6fimum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ-tffnZzaJ5QQ5ur77M_tr9ySElS6wmw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

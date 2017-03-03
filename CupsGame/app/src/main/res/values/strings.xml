@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cups Game</string>
+    <color name="red">#AC393F</color>
+    <color name="dark_red">#87181E</color>
+    <color name="dark_grey">#252525</color>
+    <color name="light_grey">#F5F5F5</color>
+</resources>

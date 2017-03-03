@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <color name="text_color">#000000</color>
+    <color name = "text_color_light">#FFFFFF</color>
+    <color name="background">#E88A3D</color>
+    <color name = "light_background">#FFBB83</color>
+    <color name="dark_background">#CE6814</color>
+    <color name = "lighter_background">#FFECDD</color>
+    <color name="darker_background">#B85300</color>
+    <color name="margin">#323232</color>
+</resources>

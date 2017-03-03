@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/popup"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tv_color"
+        android:text="Color"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:background="@color/background"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tv_red"
+            android:text="Red: 0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="0.5dp"
+            android:gravity="center"
+            android:background="@color/light_background"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_green"
+            android:text="Green: 0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="0.5dp"
+            android:gravity="center"
+            android:background="@color/light_background"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_blue"
+            android:text="Blue: 0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:background="@color/light_background"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@color/lighter_background"
+            android:weightSum="3">
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:progressBackgroundTint="@color/black"
+                android:id="@+id/sb_red" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:progressBackgroundTint="@color/black"
+                android:id="@+id/sb_green" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:progressBackgroundTint="@color/black"
+                android:id="@+id/sb_blue" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_size_label"
+        android:text="Size"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:background="@color/background"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="3">
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/lighter_background"
+            android:progressBackgroundTint="@color/black"
+            android:id="@+id/sb_size" />
+
+        <TextView
+            android:text="5dp"
+            android:id="@+id/tv_size"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:background="@color/light_background"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_alpha_label"
+        android:text="Opacity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:background="@color/background"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="3">
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/lighter_background"
+            android:progressBackgroundTint="@color/black"
+            android:id="@+id/sb_alpha" />
+
+        <TextView
+            android:text="255dp"
+            android:id="@+id/tv_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="2"
+            android:background="@color/light_background"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/background"
+            android:text="Save"
+            android:textSize="24sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_load"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginRight="1dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/background"
+            android:text="Load"
+            android:textSize="24sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/iv_save"
+            android:src="@drawable/file"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="0.5dp"
+            android:background="@color/light_background"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/iv_load"
+            android:src="@drawable/file"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/light_background"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

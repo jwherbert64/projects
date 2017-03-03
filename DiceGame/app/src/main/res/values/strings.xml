@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dice Game</string>
+    <color name="purple">#592C75</color>
+    <color name="light_purple">#784A8F</color>
+    <color name="dark_grey">#151515</color>
+    <color name="light_grey">#F5F5F5</color>
+</resources>
