@@ -11,7 +11,6 @@ import android.widget.GridView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class FileAdapter extends BaseAdapter {
@@ -67,16 +66,16 @@ public class FileAdapter extends BaseAdapter {
         ViewGroup.LayoutParams llp = new ViewGroup.LayoutParams(new GridView.LayoutParams(la, la + lb));
         linearLayout.setLayoutParams(llp);
         linearLayout.setPadding(3, 3, 3, 3);
-        linearLayout.setBackgroundColor(ContextCompat.getColor(context, R.color.text_color));
+        linearLayout.setBackgroundColor(ContextCompat.getColor(context, R.color.black));
 
         TextView tv_name = new TextView(context);
         LinearLayout.LayoutParams nlp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, lb);
         nlp.setMargins(0, 0, 0, 5);
         tv_name.setLayoutParams(nlp);
         tv_name.setTextSize(16);
-        tv_name.setTextColor(ContextCompat.getColor(context,  R.color.text_color_light));
+        tv_name.setTextColor(ContextCompat.getColor(context,  R.color.white));
         tv_name.setTypeface(typeFace);
-        tv_name.setBackgroundColor(ContextCompat.getColor(context, R.color.background));
+        tv_name.setBackgroundResource(R.drawable.button);
         tv_name.setPadding(5, 0, 5, 0);
         tv_name.setGravity(Gravity.CENTER);
         tv_name.setText(mNames.get(position));
@@ -85,9 +84,9 @@ public class FileAdapter extends BaseAdapter {
         ViewGroup.LayoutParams clp = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, la);
         tv_content.setLayoutParams(clp);
         tv_content.setTextSize(12);
-        tv_content.setTextColor(ContextCompat.getColor(context, R.color.text_color));
+        tv_content.setTextColor(ContextCompat.getColor(context, R.color.black));
         tv_content.setTypeface(typeFace);
-        tv_content.setBackgroundColor(ContextCompat.getColor(context, R.color.text_color_light));
+        tv_content.setBackgroundColor(ContextCompat.getColor(context, R.color.white));
         tv_content.setPadding(5, 0, 5, 0);
         tv_content.setGravity(Gravity.CENTER);
         tv_content.setText(mContents.get(position));

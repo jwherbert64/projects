@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="neekostudios.munchtime.CookingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        style="?attr/buttonBarStyle">
+
+        <Button
+            android:id="@+id/b_cooking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/b_cooking"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/b_cook_true"
+            style="?attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/b_shopping"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/b_shopping"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/b_shop_false"
+            style="?attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/viewer">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/b_search"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@drawable/b_search"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:weightSum="2"
+        style="?attr/buttonBarStyle">
+
+        <Button
+            android:id="@+id/b_popular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/b_popular"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:background="@drawable/b_popular_true"
+            style="?attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/b_trending"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/b_trending"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:background="@drawable/b_trending_false"
+            style="?attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Munch Time</string>
+    <string name="b_cooking">Cooking</string>
+    <string name="b_shopping">Shopping</string>
+    <string name="b_search">Search</string>
+    <string name="b_popular">Popular</string>
+    <string name="b_trending">Trending</string>
+</resources>

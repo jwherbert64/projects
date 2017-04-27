@@ -315,7 +315,7 @@ public class AppActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder fileDialog = new AlertDialog.Builder(AppActivity.this);
-                fileDialog.setTitle("Create File");
+                fileDialog.setTitle("Save File");
 
                 final EditText editText = new EditText(AppActivity.this);
                 editText.setHint("Enter File Name");
@@ -336,7 +336,7 @@ public class AppActivity extends AppCompatActivity {
                         String name = editText.getText().toString();
 
                         File dir = getDir("paint", Context.MODE_PRIVATE);
-                        File file = new File(dir, name + ".png");
+                        File file = new File(dir, name);
 
                         FileOutputStream fos = null;
                         try {

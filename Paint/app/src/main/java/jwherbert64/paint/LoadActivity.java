@@ -89,11 +89,11 @@ public class LoadActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(delete == false) {
-                    b_delete.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.darker_background));
+                    b_delete.setBackgroundResource(R.drawable.button_active);
                     delete = true;
                 }
                 else if(delete == true) {
-                    b_delete.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.dark_background));
+                    b_delete.setBackgroundResource(R.drawable.button);
                     delete = false;
                 }
             }
@@ -103,11 +103,11 @@ public class LoadActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(arrange == false) {
-                    b_arrange.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.darker_background));
+                    b_arrange.setBackgroundResource(R.drawable.button_active);
                     arrange = true;
                 }
                 else if(arrange == true) {
-                    b_arrange.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.dark_background));
+                    b_arrange.setBackgroundResource(R.drawable.button);
                     arrange = false;
                 }
             }

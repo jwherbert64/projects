@@ -82,7 +82,7 @@ public class FileAdapter extends BaseAdapter {
         tv_name.setTextSize(16);
         tv_name.setTextColor(ContextCompat.getColor(context,  R.color.white ));
         tv_name.setTypeface(typeFace);
-        tv_name.setBackgroundColor(ContextCompat.getColor(context, R.color.background));
+        tv_name.setBackgroundResource(R.drawable.button);
         tv_name.setPadding(5, 0, 5, 0);
         tv_name.setGravity(Gravity.CENTER);
         tv_name.setText(mNames.get(position));

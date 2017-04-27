@@ -1,10 +1,4 @@
 <resources>
     <string name="app_name">Weather</string>
     <string name="str_city">Change City</string>
-    <color name="text_color">#000000</color>
-    <color name="background">#2B7E7E</color>
-    <color name="light_background">#5EA1A1</color>
-    <color name="dark_background">#0F6464</color>
-    <color name="lighter_background">#C1DDDD</color>
-    <color name="darker_background">#004141</color>
 </resources>

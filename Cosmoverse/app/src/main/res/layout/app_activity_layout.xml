@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="jwherbert64.cosmoverse.AppActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tv_u_title"
+                    android:text="The Universe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bar"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/background">
+                <TextView
+                    android:id="@+id/tv_u_desc"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/background">
+                <LinearLayout
+                    android:layout_width="325dp"
+                    android:layout_height="325dp"
+                    android:layout_gravity="center"
+                    android:background="@color/black">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/lighter_background">
+                        <ImageView
+                            app:srcCompat="@drawable/universe"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@color/background">
+                    <Button
+                        android:id="@+id/b_u_info"
+                        android:text="Learn more about the universe"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:background="@color/light_background"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tv_s_title"
+                    android:text="The Stars"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bar"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/background">
+                <TextView
+                    android:id="@+id/tv_s_desc"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/background">
+                <LinearLayout
+                    android:layout_width="325dp"
+                    android:layout_height="325dp"
+                    android:layout_gravity="center"
+                    android:background="@color/black">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/lighter_background">
+                        <ImageView
+                            app:srcCompat="@drawable/star"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/background">
+                    <Button
+                        android:id="@+id/b_s_info"
+                        android:text="Learn more about the stars"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:background="@color/light_background"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@color/background">
+                    <Button
+                        android:id="@+id/b_s_gallery"
+                        android:text="Gallery of noteable stars"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:background="@color/light_background"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tv_p_title"
+                    android:text="The Planets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bar"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/background">
+                <TextView
+                    android:id="@+id/tv_p_desc"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/background">
+                <LinearLayout
+                    android:layout_width="325dp"
+                    android:layout_height="325dp"
+                    android:layout_gravity="center"
+                    android:background="@color/black">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/lighter_background">
+                        <ImageView
+                            app:srcCompat="@drawable/planet"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/background">
+                    <Button
+                        android:id="@+id/b_p_info"
+                        android:text="Learn more about the planets"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:background="@color/light_background"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@color/background">
+                    <Button
+                        android:id="@+id/b_p_gallery"
+                        android:text="Gallery of noteable planets"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:background="@color/light_background"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tv_g_title"
+                    android:text="The Galaxies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:textSize="32sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bar"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/background">
+                <TextView
+                    android:id="@+id/tv_g_desc"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+
+            <TableRow
+                android:background="@color/background">
+                <LinearLayout
+                    android:layout_width="325dp"
+                    android:layout_height="325dp"
+                    android:layout_gravity="center"
+                    android:background="@color/black">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_margin="1dp"
+                        android:background="@color/lighter_background">
+                        <ImageView
+                            app:srcCompat="@drawable/galaxy"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:background="@color/background">
+                    <Button
+                        android:id="@+id/b_g_info"
+                        android:text="Learn more about the galaxies"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:background="@color/light_background"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:background="@color/background">
+                    <Button
+                        android:id="@+id/b_g_gallery"
+                        android:text="Gallery of noteable galaxies"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:background="@color/light_background"/>
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

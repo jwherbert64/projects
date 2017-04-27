@@ -16,6 +16,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -29,6 +30,8 @@ import java.util.List;
 public class AppActivity extends AppCompatActivity {
 
     GridView gv_files;
+
+    TextView tv_title;
 
     Button b_create, b_arrange;
 
@@ -56,12 +59,14 @@ public class AppActivity extends AppCompatActivity {
 
 
         gv_files = (GridView) findViewById(R.id.gv_files);
+        tv_title = (TextView) findViewById(R.id.tv_title);
         b_create = (Button) findViewById(R.id.b_create);
         b_arrange = (Button) findViewById(R.id.b_arrange);
 
         Typeface typeFace = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
         Typeface typeFaceBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 
+        tv_title.setTypeface(typeFace);
         b_create.setTypeface(typeFaceBold);
         b_arrange.setTypeface(typeFaceBold);
 
@@ -177,11 +182,11 @@ public class AppActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(arrange == false) {
-                    b_arrange.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.darker_background));
+                    b_arrange.setBackgroundResource(R.drawable.button_active);
                     arrange = true;
                 }
                 else if(arrange == true) {
-                    b_arrange.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.dark_background));
+                    b_arrange.setBackgroundResource(R.drawable.button);
                     arrange = false;
                 }
             }

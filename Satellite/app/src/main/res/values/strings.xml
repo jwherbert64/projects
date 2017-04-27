@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">Satellite</string>
-    <color name="text_color">#000000</color>
-    <color name="background">#78BC3F</color>
-    <color name="light_background">#B0E684</color>
-    <color name="dark_background">#498D10</color>
-    <color name="lighter_background">#E0F5CE</color>
-    <color name="darker_background">#285800</color>
 </resources>

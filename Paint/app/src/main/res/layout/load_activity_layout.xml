@@ -3,9 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="25dp"
-    android:background="@color/light_background">
-
+    android:background="@drawable/background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,13 +18,13 @@
             android:gravity="center"
             android:layout_margin="1dp"
             android:textSize="24sp"
-            android:background="@color/dark_background"
+            android:background="@drawable/bar"
             android:textColor="@color/white"/>
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:weightSum="2"
         android:background="@color/black">
 
@@ -37,10 +35,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="1dp"
+            android:layout_marginStart="1dp"
             android:layout_marginLeft="1dp"
+            android:layout_marginEnd="1dp"
             android:layout_marginRight="0.5dp"
             android:layout_marginBottom="1dp"
-            android:background="@color/dark_background"
+            android:background="@drawable/button"
             android:textColor="@color/white"
             android:layout_weight="1"/>
 
@@ -51,10 +51,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="1dp"
+            android:layout_marginStart="1dp"
             android:layout_marginLeft="0.5dp"
+            android:layout_marginEnd="1dp"
             android:layout_marginRight="1dp"
             android:layout_marginBottom="1dp"
-            android:background="@color/dark_background"
+            android:background="@drawable/button"
             android:textColor="@color/white"
             android:layout_weight="1"/>
 
@@ -63,7 +65,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="25dp"
-        android:background="@color/light_background"/>
+        android:background="@drawable/divider"/>
 
     <GridView
         android:id="@+id/gv_files"
@@ -72,7 +74,6 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:gravity="center"
-        android:background="@color/lighter_background"
         android:numColumns="auto_fit"
         android:verticalSpacing="20dp"/>
 
