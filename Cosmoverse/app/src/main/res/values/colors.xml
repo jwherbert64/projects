@@ -8,6 +8,6 @@
     <color name="background">#61378E</color>
     <color name="light_background">#835EAA</color>
     <color name="dark_background">#481E76</color>
-    <color name ="lighter_background">#BAA1D4</color>
+    <color name ="lighter_background">#EBE1F6</color>
     <color name="darker_background">#2E0857</color>
 </resources>

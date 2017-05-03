@@ -15,8 +15,8 @@ android {
         applicationId "jwherbert64.cosmoverse"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 10
-        versionName "2.0"
+        versionCode 12
+        versionName "2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

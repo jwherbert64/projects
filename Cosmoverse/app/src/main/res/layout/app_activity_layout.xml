@@ -10,6 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context="jwherbert64.cosmoverse.AppActivity">
 
     <ScrollView
@@ -34,8 +35,7 @@
                     android:background="@drawable/bar"/>
             </TableRow>
 
-            <TableRow
-                android:background="@color/background">
+            <TableRow>
                 <TextView
                     android:id="@+id/tv_u_desc"
                     android:text=""
@@ -47,8 +47,7 @@
                     android:textColor="@color/white"/>
             </TableRow>
 
-            <TableRow
-                android:background="@color/background">
+            <TableRow>
                 <LinearLayout
                     android:layout_width="325dp"
                     android:layout_height="325dp"
@@ -76,8 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:paddingTop="10dp"
-                    android:paddingBottom="10dp"
-                    android:background="@color/background">
+                    android:paddingBottom="10dp">
                     <Button
                         android:id="@+id/b_u_info"
                         android:text="Learn more about the universe"
@@ -87,7 +85,7 @@
                         android:gravity="center"
                         android:textSize="16sp"
                         android:textColor="@color/white"
-                        android:background="@color/light_background"/>
+                        android:background="@android:color/transparent"/>
                 </LinearLayout>
             </TableRow>
 
@@ -103,8 +101,7 @@
                     android:background="@drawable/bar"/>
             </TableRow>
 
-            <TableRow
-                android:background="@color/background">
+            <TableRow>
                 <TextView
                     android:id="@+id/tv_s_desc"
                     android:text=""
@@ -116,8 +113,7 @@
                     android:textColor="@color/white"/>
             </TableRow>
 
-            <TableRow
-                android:background="@color/background">
+            <TableRow>
                 <LinearLayout
                     android:layout_width="325dp"
                     android:layout_height="325dp"
@@ -144,8 +140,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:paddingTop="10dp"
-                    android:background="@color/background">
+                    android:paddingTop="10dp">
                     <Button
                         android:id="@+id/b_s_info"
                         android:text="Learn more about the stars"
@@ -154,7 +149,7 @@
                         android:gravity="center"
                         android:textSize="16sp"
                         android:textColor="@color/white"
-                        android:background="@color/light_background"/>
+                        android:background="@android:color/transparent"/>
                 </LinearLayout>
             </TableRow>
 
@@ -163,8 +158,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:paddingTop="10dp"
-                    android:paddingBottom="10dp"
-                    android:background="@color/background">
+                    android:paddingBottom="10dp">
                     <Button
                         android:id="@+id/b_s_gallery"
                         android:text="Gallery of noteable stars"
@@ -173,7 +167,7 @@
                         android:gravity="center"
                         android:textSize="16sp"
                         android:textColor="@color/white"
-                        android:background="@color/light_background"/>
+                        android:background="@android:color/transparent"/>
                 </LinearLayout>
             </TableRow>
 
@@ -189,8 +183,7 @@
                     android:background="@drawable/bar"/>
             </TableRow>
 
-            <TableRow
-                android:background="@color/background">
+            <TableRow>
                 <TextView
                     android:id="@+id/tv_p_desc"
                     android:text=""
@@ -202,8 +195,7 @@
                     android:textColor="@color/white"/>
             </TableRow>
 
-            <TableRow
-                android:background="@color/background">
+            <TableRow>
                 <LinearLayout
                     android:layout_width="325dp"
                     android:layout_height="325dp"
@@ -230,8 +222,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:paddingTop="10dp"
-                    android:background="@color/background">
+                    android:paddingTop="10dp">
                     <Button
                         android:id="@+id/b_p_info"
                         android:text="Learn more about the planets"
@@ -240,7 +231,7 @@
                         android:gravity="center"
                         android:textSize="16sp"
                         android:textColor="@color/white"
-                        android:background="@color/light_background"/>
+                        android:background="@android:color/transparent"/>
                 </LinearLayout>
             </TableRow>
 
@@ -249,8 +240,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:paddingTop="10dp"
-                    android:paddingBottom="10dp"
-                    android:background="@color/background">
+                    android:paddingBottom="10dp">
                     <Button
                         android:id="@+id/b_p_gallery"
                         android:text="Gallery of noteable planets"
@@ -259,7 +249,7 @@
                         android:gravity="center"
                         android:textSize="16sp"
                         android:textColor="@color/white"
-                        android:background="@color/light_background"/>
+                        android:background="@android:color/transparent"/>
                 </LinearLayout>
             </TableRow>
 
@@ -275,8 +265,7 @@
                     android:background="@drawable/bar"/>
             </TableRow>
 
-            <TableRow
-                android:background="@color/background">
+            <TableRow>
                 <TextView
                     android:id="@+id/tv_g_desc"
                     android:text=""
@@ -288,8 +277,7 @@
                     android:textColor="@color/white"/>
             </TableRow>
 
-            <TableRow
-                android:background="@color/background">
+            <TableRow>
                 <LinearLayout
                     android:layout_width="325dp"
                     android:layout_height="325dp"
@@ -316,8 +304,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:paddingTop="10dp"
-                    android:background="@color/background">
+                    android:paddingTop="10dp">
                     <Button
                         android:id="@+id/b_g_info"
                         android:text="Learn more about the galaxies"
@@ -326,7 +313,7 @@
                         android:gravity="center"
                         android:textSize="16sp"
                         android:textColor="@color/white"
-                        android:background="@color/light_background"/>
+                        android:background="@android:color/transparent"/>
                 </LinearLayout>
             </TableRow>
 
@@ -335,8 +322,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:paddingTop="10dp"
-                    android:paddingBottom="10dp"
-                    android:background="@color/background">
+                    android:paddingBottom="10dp">
                     <Button
                         android:id="@+id/b_g_gallery"
                         android:text="Gallery of noteable galaxies"
@@ -345,7 +331,7 @@
                         android:gravity="center"
                         android:textSize="16sp"
                         android:textColor="@color/white"
-                        android:background="@color/light_background"/>
+                        android:background="@android:color/transparent"/>
                 </LinearLayout>
             </TableRow>
 

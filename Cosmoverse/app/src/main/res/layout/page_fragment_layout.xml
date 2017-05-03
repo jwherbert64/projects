@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@drawable/background"
     android:weightSum="2">
 
     <LinearLayout
@@ -33,7 +32,7 @@
                 android:padding="5dp"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:background="@color/dark_background"/>
+                android:background="@drawable/banner"/>
 
         </LinearLayout>
 
@@ -43,8 +42,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:orientation="vertical"
-            android:layout_weight="1"
-            android:background="@color/background">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="175dp"
@@ -120,7 +118,7 @@
                 android:padding="5dp"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:background="@color/dark_background"/>
+                android:background="@drawable/banner"/>
 
         </LinearLayout>
 
@@ -130,8 +128,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:orientation="vertical"
-            android:layout_weight="1"
-            android:background="@color/background">
+            android:layout_weight="1">
 
             <LinearLayout
                 android:layout_width="175dp"
@@ -188,8 +185,7 @@
         android:layout_height="25dp"
         android:layout_gravity="bottom|center"
         android:gravity="center"
-        android:weightSum="3"
-        android:background="@color/background">
+        android:weightSum="3">
 
         <LinearLayout
             android:layout_width="match_parent"

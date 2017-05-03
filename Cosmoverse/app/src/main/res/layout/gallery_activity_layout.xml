@@ -3,11 +3,11 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="25dp"
+    android:paddingBottom="0dp"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:paddingTop="0dp"
-    android:background="@color/background"
+    android:background="@drawable/background"
     android:orientation="vertical">
 
     <TextView
@@ -22,7 +22,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="25dp"
-        android:background="@color/background"/>
+        android:background="@drawable/divider"/>
 
     <GridView
         android:id="@+id/gv_gallery"
@@ -31,7 +31,6 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:gravity="center"
-        android:background="@color/light_background"
         android:numColumns="auto_fit"
         android:verticalSpacing="20dp"/>
 
