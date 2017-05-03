@@ -107,124 +107,130 @@
                     android:layout_margin="25dp"
                     android:background="@color/black">
 
-                    <LinearLayout
+                    <ScrollView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:layout_margin="1dp"
-                        android:background="@drawable/banner">
-
-                        <TextView
-                            android:id="@+id/tv_name_title"
-                            android:text="Name"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:gravity="center"
-                            android:textSize="16sp"
-                            android:textColor="@color/black"/>
+                        android:layout_margin="1dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginLeft="25dp"
-                            android:layout_marginRight="25dp">
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@drawable/banner">
 
                             <TextView
-                                android:id="@+id/tv_name"
+                                android:id="@+id/tv_name_title"
+                                android:text="Name"
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
+                                android:layout_height="50dp"
                                 android:gravity="center"
-                                android:layout_margin="1dp"
                                 android:textSize="16sp"
-                                android:textColor="@color/black"
-                                android:background="@drawable/edit_text"/>
+                                android:textColor="@color/black"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="25dp">
+
+                                <TextView
+                                    android:id="@+id/tv_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:layout_margin="1dp"
+                                    android:textSize="16sp"
+                                    android:textColor="@color/black"
+                                    android:background="@drawable/edit_text"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_phone_title"
+                                android:text="Phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:textSize="16sp"
+                                android:textColor="@color/black"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="25dp">
+
+                                <TextView
+                                    android:id="@+id/tv_phone"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:layout_margin="1dp"
+                                    android:textSize="16sp"
+                                    android:textColor="@color/black"
+                                    android:background="@drawable/edit_text"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_email_title"
+                                android:text="Email"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:textSize="16sp"
+                                android:textColor="@color/black"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="25dp">
+
+                                <TextView
+                                    android:id="@+id/tv_email"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:layout_margin="1dp"
+                                    android:textSize="16sp"
+                                    android:textColor="@color/black"
+                                    android:background="@drawable/edit_text"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_address_title"
+                                android:text="Address"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:textSize="16sp"
+                                android:textColor="@color/black"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="25dp">
+
+                                <TextView
+                                    android:id="@+id/tv_address"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_marginLeft="1dp"
+                                    android:layout_marginRight="1dp"
+                                    android:textSize="16sp"
+                                    android:textColor="@color/black"
+                                    android:background="@drawable/edit_text"/>
+
+                            </LinearLayout>
 
                         </LinearLayout>
 
-                        <TextView
-                            android:id="@+id/tv_phone_title"
-                            android:text="Phone"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:gravity="center"
-                            android:textSize="16sp"
-                            android:textColor="@color/black"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginLeft="25dp"
-                            android:layout_marginRight="25dp">
-
-                            <TextView
-                                android:id="@+id/tv_phone"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center"
-                                android:layout_margin="1dp"
-                                android:textSize="16sp"
-                                android:textColor="@color/black"
-                                android:background="@drawable/edit_text"/>
-
-                        </LinearLayout>
-
-                        <TextView
-                            android:id="@+id/tv_email_title"
-                            android:text="Email"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:gravity="center"
-                            android:textSize="16sp"
-                            android:textColor="@color/black"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginLeft="25dp"
-                            android:layout_marginRight="25dp">
-
-                            <TextView
-                                android:id="@+id/tv_email"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center"
-                                android:layout_margin="1dp"
-                                android:textSize="16sp"
-                                android:textColor="@color/black"
-                                android:background="@drawable/edit_text"/>
-
-                        </LinearLayout>
-
-                        <TextView
-                            android:id="@+id/tv_address_title"
-                            android:text="Address"
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:gravity="center"
-                            android:textSize="16sp"
-                            android:textColor="@color/black"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp"
-                            android:layout_marginLeft="25dp"
-                            android:layout_marginRight="25dp">
-
-                            <TextView
-                                android:id="@+id/tv_address"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:gravity="center"
-                                android:layout_marginTop="1dp"
-                                android:layout_marginLeft="1dp"
-                                android:layout_marginRight="1dp"
-                                android:textSize="16sp"
-                                android:textColor="@color/black"
-                                android:background="@drawable/edit_text"/>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
+                    </ScrollView>
 
                 </LinearLayout>
 
@@ -233,6 +239,5 @@
         </LinearLayout>
 
     </LinearLayout>
-    >
 
 </LinearLayout>
